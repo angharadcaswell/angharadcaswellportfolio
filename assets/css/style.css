@@ -84,7 +84,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 368px;
+    min-height: 368px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -118,6 +118,10 @@ header {
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 .menuitem {
