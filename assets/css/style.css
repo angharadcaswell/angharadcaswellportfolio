@@ -343,13 +343,20 @@ footer {
     margin-bottom: 30px;
 }
 
+.progress-green {
+    background-color: #C9D5B5;
+}
+.progress-grey {
+   background-color: #9F9F92; 
+}
+
 .contact-image {
     background: url(/assets/images/background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 368px;
-    width: 100%;
+    padding: 0;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
