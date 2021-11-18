@@ -6,7 +6,7 @@
 }
 
 .bg-color-three-reasons {
-    background: #F27980;
+    background: #9F9F92;
 }
 
 .bg-color-personal-info {
@@ -23,7 +23,7 @@
 }
 
 .bg-color-contact {
-    background-color: #fff;
+    background-color: #9F9F92;
 }
 
 .ui-menu-color-resume {
@@ -32,7 +32,7 @@
 
 .ui-menu-color-contact {
     
-    background-color: #9F9F92;
+    background-color: #F27980;
 }
 
 .ui-menu-color-download {
@@ -391,6 +391,10 @@ button[type="submit"]{
     background-color: #F27980;
     font-family: "Montserrat", sans-serif;
 
+}
+
+input {
+    margin-bottom: 10px;
 }
 
 @media(min-width: 992px) {
