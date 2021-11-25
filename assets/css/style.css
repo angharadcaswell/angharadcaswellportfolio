@@ -421,6 +421,26 @@ video {
     margin: 40px auto;
 }
 
+img {
+    /* animation of image when the page is loading */
+    animation: img-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Image zoom */
+
+@keyframes img-zoom {
+
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
 .html-icon, 
 .css-icon,
 .boostrap-icon,
@@ -453,6 +473,7 @@ video {
 .shut-the-box h1,
 .react-weather h1{
     margin-top: 50px;
+    font-size: 30px;
 }
 
 .portfolio-left {
