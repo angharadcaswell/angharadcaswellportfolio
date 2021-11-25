@@ -39,7 +39,8 @@
     background-color: #525252;
 }
 
-.wild-swim{
+.wild-swim,
+.shut-the-box{
     background-color: #9F9F92;
     color: white;
 }
@@ -424,4 +425,27 @@ img {
     color: white;
     text-align: center;
     font-size: 30px;
+}
+
+.html-icon-black, 
+.css-icon-black,
+.boostrap-icon-black {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.wild-swim a, 
+.toni-smith-paints a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.wild-swim h1,
+.toni-smith-paints h1{
+    margin-top: 50px;
+}
+
+.portfolio-left {
+    padding-left: 50px;
 }
