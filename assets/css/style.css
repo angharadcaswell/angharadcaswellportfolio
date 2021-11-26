@@ -480,6 +480,24 @@ img {
     padding-left: 50px;
 }
 
+.wild-swim p,
+.toni-smith-paints p,
+.shut-the-box p,
+.react-weather p{
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700;
+}
+.wild-swim li,
+.toni-smith-paints li,
+.shut-the-box li,
+.react-weather li{
+    font-family: "Montserrat", sans-serif; 
+}
+
+
+
+/* ------------------------------------------------Resume */
+
 .wireframe {
     border-style: dashed;
     border-color: #525252;
