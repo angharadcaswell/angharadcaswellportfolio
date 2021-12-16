@@ -9,7 +9,10 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
-            alert('Sent!');
+            let thankYouMessage = document.getElementById("form")
+            thankYouMessage.classList.add("thankyou");
+            thankYouMessage.innerHTML = "<h2>Thank you for your message. 🥰 I will be in contact as soon as possible.</h2>";
+            
         },
         function(error) {
             console.log("FAILED", error);

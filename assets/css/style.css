@@ -518,3 +518,16 @@ img {
         font-size: 20px;
     }
 }
+
+
+/* Thank you message */
+.thankyou h2{
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px auto;
+    padding: 80px 50px;
+    background: #F27980;
+    width: 50%;
+}
