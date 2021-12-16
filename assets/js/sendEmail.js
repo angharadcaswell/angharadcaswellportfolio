@@ -9,6 +9,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            alert('Sent!');
         },
         function(error) {
             console.log("FAILED", error);
