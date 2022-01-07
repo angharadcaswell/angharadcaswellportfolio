@@ -100,6 +100,11 @@
                         </p>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-12" id ="map">
+                       
+                    </div>
+                </div>
             </div>
             <div class="col-md-8 bg-color-three-reasons section-column about-me">
                 <div class="row">
@@ -180,6 +185,19 @@
             </div>
         </div>
     </footer>
-    
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"),{
+                zoom:3, 
+                center: {
+                    lat: 46.619261,
+                    lng: -33.134766
+                }
+            })
+        }
+    </script>
+     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCw_G9IMEp5UzsRuhZSlaELPv5jCJ6XYpc&callback=initMap"></script>
+     <script src="assets/js/maps.js"></script>
 </body>
 </html>
